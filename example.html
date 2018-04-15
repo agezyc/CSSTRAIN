@@ -3,8 +3,45 @@
 <head>
 	<meta charset="UTF-8">
 	<title>hello</title>
+	<style>
+	.wrap{
+		
+		margin:auto;
+		width:100%;
+		padding-bottom:90%;
+		
+	}
+ 	.clearfix:after{
+            visibility: hidden;
+            display: inline-block;
+            content: "";
+            height: 0;
+            clear: both;
+            *zoom: 1;
+             
+        } 
+	.cube{
+		padding-bottom:31%;
+		margin:1.16%;
+		width:31%;
+		border-radius:5px;
+		background-color: orange;
+		float:left;
+	}
+	</style>
 </head>
 <body>
-	<p>hello world!</p>
+	<div class="wrap clearfix">
+	<div class="cube"></div>
+	<div class="cube"></div>
+	<div class="cube"></div>
+	<div class="cube"></div>
+	<div class="cube"></div>
+	<div class="cube"></div>
+	<div class="cube"></div>
+	<div class="cube"></div>
+	<div class="cube"></div>
+
+	</div>
 </body>
 </html>
